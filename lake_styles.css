@@ -1,0 +1,115 @@
+rgb(251, 241, 239)﻿@charset "UTF-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+
+   Great Lakescape Lodge Style Sheet
+   Author: Darya Lahutskaya
+   Date:   09-27-2017
+
+   Filename: lake_styles.css
+
+*/
+/*@font-face {
+  font-family: 'cac';
+  src: url('cac_champagne.woff') format('woff'), url('cac_champange.ttf') format('truetype');
+}*/
+@font-face {
+ font-family: 'champ';
+ src: url('cac_champagne.woff') format('woff'), url('cac_champagne.ttf') format('truetype');
+}
+@font-face {
+ font-family: 'Dobkin';
+ src: url('DobkinPlain.woff') format('woff'), url('DobkinPlain.ttf') format('truetype');
+}
+  html {
+    background-color: hsl(17, 80%, 80%);
+  }
+  body {
+    background-color: hsl(14, 59%, 96%);
+    font-family:champ,cursive;
+  }
+  header {
+    background-color: hsl(4, 60%, 91%) ;
+  }
+
+
+  p {
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+  }
+
+
+  footer {
+    font: normal 0.9em;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: hsl(4, 60%, 91%);
+}
+
+aside a {
+  text-decoration: none;
+  color: hsl(330, 73%, 32%);
+}
+header li a:hover{
+  color: hsl(187, 32%, 52%);
+}
+
+section li a:hover{
+  color: hsl(187, 32%, 52%);
+}
+
+nav a:link, nav a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#rightcol{
+background-color: hsl(187, 15%, 89%);
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 1.5em;
+}
+
+li{
+  list-style-type: none;
+}
+
+
+#blockquote {
+  color: hsl(187, 32%, 52%);
+  text-align: left;
+}
+
+aside {
+  background-color:hsl(2, 57%, 92%) ;
+  text-align: center;
+  font-size: 1.0em;
+}
+
+#welcom{
+text-align: center;
+font-family: 'Dancing Script', cursive;
+font-size: 2.9em;
+}
+
+#ul{
+font-family: 'Dancing Script', cursive;
+font-size: 1.5em;
+}
+#mainp {
+font-family: 'Lustria', serif;
+font-size: 1.0em;
+line-height: 1.5;
+}
+
+section>nav>ul {
+  font-family: 'Lustria', serif;
+font-size: 0.6em;
+text-align: left;
+}
